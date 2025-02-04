@@ -1,13 +1,12 @@
 package exercise;
 
-import java.lang.CharSequence;
 // BEGIN
 class ReversedSequence implements CharSequence {
 
     String reversed;
 
     ReversedSequence(String text) {
-        reversed = new StringBuilder(text).reverse().toString();;
+        reversed = new StringBuilder(text).reverse().toString();
     }
 
     @Override
@@ -22,7 +21,7 @@ class ReversedSequence implements CharSequence {
 
     @Override
     public CharSequence subSequence(int i, int i1) {
-        if(reversed == null) {
+        if (reversed == null) {
             return "";
         }
         return reversed.substring(i, i1);

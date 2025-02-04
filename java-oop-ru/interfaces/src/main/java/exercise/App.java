@@ -17,10 +17,10 @@ public class App {
 
         List<String> apartmentsList = new ArrayList<>();
 
-        if(apartments.isEmpty()) {
+        if (apartments.isEmpty()) {
             return apartmentsList;
         }
-        for(int i = 0; i < value; i++ ) {
+        for (int i = 0; i < value; i++) {
             apartmentsList.add(sorted.get(i).toString());
         }
         return apartmentsList;

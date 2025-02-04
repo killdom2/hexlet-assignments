@@ -6,7 +6,7 @@ class Flat implements Home {
     double balconyArea;
     int floor;
 
-    public Flat(int area, int balconyArea, int floor) {
+    Flat(int area, int balconyArea, int floor) {
         this.area = area;
         this.balconyArea = balconyArea;
         this.floor = floor;
