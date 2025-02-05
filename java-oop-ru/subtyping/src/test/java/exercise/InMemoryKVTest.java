@@ -38,11 +38,9 @@ class InMemoryKVTest {
 
         initial.put("key2", "value2");
         assertThat(storage.toMap()).isEqualTo(clonedInitial);
-        System.out.println("storage: " + storage.toMap());
 
         Map<String, String> map = storage.toMap();
         map.put("key2", "value2");
-        System.out.println("storage2: " + storage.toMap());
         assertThat(storage.toMap()).isEqualTo(clonedInitial);
     }
 }

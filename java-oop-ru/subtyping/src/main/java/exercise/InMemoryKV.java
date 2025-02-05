@@ -8,7 +8,7 @@ final class InMemoryKV implements KeyValueStorage {
 
     private final Map<String, String> storage;
 
-    public InMemoryKV(Map<String, String> map) {
+    InMemoryKV(Map<String, String> map) {
         storage = new HashMap<>(map);
     }
 
