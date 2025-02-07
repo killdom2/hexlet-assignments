@@ -6,7 +6,7 @@ import java.util.Map;
 class SingleTag extends Tag {
 
 
-    public SingleTag(String name, Map<String, String> attributes) {
+    SingleTag(String name, Map<String, String> attributes) {
         super(name, attributes);
     }
 

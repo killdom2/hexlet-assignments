@@ -9,7 +9,7 @@ class PairedTag extends Tag {
     String body;
     List<Tag> children;
 
-    public PairedTag(String name, Map<String, String> attributes, String body, List<Tag> children) {
+    PairedTag(String name, Map<String, String> attributes, String body, List<Tag> children) {
         super(name, attributes);
         this.body = body;
         this.children = children;
