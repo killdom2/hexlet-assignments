@@ -6,7 +6,7 @@ class Circle {
     Point point;
     int radius;
 
-    public Circle(Point point, int radius) {
+    Circle(Point point, int radius) {
         this.point = point;
         this.radius = radius;
     }
@@ -14,11 +14,11 @@ class Circle {
     public int getRadius() {
         return radius;
     }
-    public int getSquare() throws NegativeRadiusException {
+    public double getSquare() throws NegativeRadiusException {
         if (radius < 0) {
             throw new NegativeRadiusException("Не удалось посчитать площадь");
         }
-        return (int)Math.round(Math.PI * radius * radius);
+        return Math.PI * radius * radius;
     }
 }
 // END

@@ -4,7 +4,7 @@ class Point {
     private int x;
     private int y;
 
-    public Point(int coordinateX, int coordinateY) {
+    Point(int coordinateX, int coordinateY) {
         this.x = coordinateX;
         this.y = coordinateY;
     }

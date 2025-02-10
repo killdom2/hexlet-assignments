@@ -10,6 +10,5 @@ public class Main {
         App.printSquare(circle3);
         Circle circle4 = new Circle(new Point(1, 2), 10);
         App.printSquare(circle4);
-        
     }
 }
